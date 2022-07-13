@@ -89,3 +89,92 @@ a {
   left: 0;
   bottom: 35%;
 }
+
+/* =====Works section===== */
+
+.caption {
+  font-family: "Crete Round", sans-serif;
+  width: 100%;
+}
+.caption h2 {
+  font-size: 35px;
+  line-height: 52px;
+  font-weight: 400;
+  width: 300px;
+  color: black;
+  position: relative;
+  height: 83px;
+  margin: 120px 24px 104px 50px;
+}
+.caption h2::after {
+  content: "";
+  width: 700px;
+  border: 1px solid #21212167;
+  position: absolute;
+  bottom: 65%;
+  left: 100%;
+}
+.special {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 0.8rem;
+  outline: none;
+  border: none;
+  padding: 0.4em;
+}
+.card {
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.card img {
+  width: 400px;
+  height: 320px;
+}
+.card-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+.card .card-content {
+  position: initial;
+  margin-top: 0;
+}
+.card-content h3 {
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+.card-content p {
+  margin-block: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.showcase {
+  width: 100%;
+  gap: 1.5rem;
+  place-content: center;
+}
+.show {
+  width: 327px;
+  position: relative;
+}
+.show img {
+  width: 327px;
+}
+.show .special {
+  width: 327px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0.5rem;
+}
