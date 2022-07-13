@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500;700&family=Open+Sans:ital@1&family=Poppins&family=Roboto:wght@700&family=Tiro+Devanagari+Marathi:ital@1&display=swap");
+
+/* === Custom Properties === */
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #ff6b00;
+  --background-color: #1c1a19;
+}
+
+/* === Css Resets === */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* === Navigation bar === */
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.headline {
+  background-color: var(--background-color);
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.headline h1 {
+  font-family: "Crete Round", sans-serif;
+  color: var(--secondary-color);
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.headline h2 {
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0.5rem;
+}
+.headline-details p {
+  width: 550px;
+  font-size: 20px;
+  line-height: 2rem;
+}
+.headline-info {
+  padding-left: 7rem;
+}
+.i-image {
+  background: url("asset/Group.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 420px;
+  height: 100%;
+  right: 0;
+  bottom: -5rem;
+  position: absolute;
+}
+.icons {
+  gap: 1rem;
+  position: absolute;
+  flex-direction: column;
+  left: 0;
+  bottom: 35%;
+}
